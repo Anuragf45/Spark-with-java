@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="924bf6c6-9edf-4cf3-bb88-da13cf00bdec" name="Changes" comment="" />
+    <list default="true" id="924bf6c6-9edf-4cf3-bb88-da13cf00bdec" name="Changes" comment="spark started" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MM1Nsx2bWHgF8n4tNmLrv9CVcI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,6 +42,36 @@
       <option name="presentableId" value="Default" />
       <updated>1677562601064</updated>
     </task>
+    <task id="LOCAL-00001" summary="spark started">
+      <created>1677562908795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677562908795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="spark started">
+      <created>1677562962327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677562962327</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spark started" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark started" />
   </component>
 </project>
