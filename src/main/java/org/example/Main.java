@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
        SparkSession spark= SparkSession.builder().master("local").appName("App").getOrCreate();
         Dataset<Row> details=spark.read().option("header",true).csv("/Users/anuragsrivastava/Downloads/Spark_java/src/main/resources/file.csv");
-        details.show();
+        //details.show();
 
 
 //        Dataset<Row> colDet=details.select(col("first_name"));
@@ -45,5 +45,12 @@ public class Main {
         //////groupBy
        // details.groupBy("Login email").count().show();
 
+
+        ////////////select
+
+          //details.select("Login email").show();
+
+        /////////where
+       // details.where(col("Login email").equalTo("laura@example.com")).show();
     }
 }
