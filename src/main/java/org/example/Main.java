@@ -26,8 +26,10 @@ public class Main {
                 new UserModel("Rahul","naamToSunaHiHoga","rahuldhek@gmail.com","kajol")
         ),UserModel.class);
         data.show();
-data.write().option("header",true).mode(SaveMode.Append).csv("/Users/anuragsrivastava/Downloads/Spark_java/src/main/resources");
+data.write().option("header",true).option("delimiter","|").mode(SaveMode.Append).csv("/Users/anuragsrivastava/Downloads/Spark_java/src/main/resources");
 data.show();
+
+
 
     }
 }
