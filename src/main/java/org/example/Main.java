@@ -33,12 +33,17 @@ public class Main {
 //data.show();
 
         /////removing a column
-        details.drop("Login email").show();
+        //details.drop("Login email").show();
 
         ///////adding a column
-        details.withColumn("newColumn",lit("Anurag")).show();
+        //details.withColumn("newColumn",lit("Anurag")).show();
+
+       ///////distinct ==>removing duplicates
+      //  details.distinct().show();
 
 
+        //////groupBy
+       // details.groupBy("Login email").count().show();
 
     }
 }
