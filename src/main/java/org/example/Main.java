@@ -33,10 +33,10 @@ public class Main {
 //data.show();
 
         /////removing a column
-        //details.drop("Login email").show();
+        details.drop("Login email").show();
 
         ///////adding a column
-       // details.withColumn("newColumn",lit("Anurag")).show();
+        details.withColumn("newColumn",lit("Anurag")).show();
 
 
 
